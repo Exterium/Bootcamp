@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[] args) {
+
+        coche miCoche = new coche();
+        miCoche.quitarPuerta();
+        System.out.println(miCoche.puertas);
+    }
+
+    static class coche{
+        public int puertas = 5;
+
+        public void quitarPuerta() {
+            this.puertas++;
+        }
+    }
+
+}
